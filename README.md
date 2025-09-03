@@ -84,3 +84,44 @@
 - Grupos de Gereenciamento
   - Podem incluir varias assinturas
   - Assinaturas herdam as condições no grupo de gerenciamento
+- Computação e Rede
+  - Serviços de Computação e Maquinas virtuais do Azure
+    - Serviços sob demanda que fornece recursos de computação
+	  - Maquinas virtuais
+	  - Aplicativos/Serviços
+	  - Continers/Instancias
+	  - Serviço de Kubernetes do Azure (AKS)
+	  - Area de trabalho Virtual do Azure
+    - Maquinas virtuais (VM)
+	  - Ambientes Windows e Linux
+	- Conjunto de dimensionamento
+	  - Balanciamento de carga para dimensionar os recursos automaticamente
+	- Conjunto de Disponibilidade de VM (sem custo extra)
+	  - Dominio de Falha (Raques)
+	  - Dominio de atualizaçao (VMs)
+	- Area de Trabalho Virtual do Azure
+	  - Virtualização de area de trabalho e aplicativos executada na nuvem
+	  - Ambiente personalizado
+	  - Gerenciamento mais organizado
+	  - Reduz risco de recurso deixado para traz
+	- Serviços de Containers do Azure
+	  - Fornece um ambiente leve que não exige gereciamento do sistema operacional
+	  - Responde a alterações sob demanda
+	  - Instancias de Containers, PaaS que executa container ou pod de containers do Azure
+	  - Aplicativos de container, PaaS, Balanciamento de carga e escalar aplicação.
+	- Serviços de Kubernetes do Azure
+	  - Orquestração de containers
+	  - Arquitetura distriuida e de alto volume de containers
+	- Azure Functions
+	  - PaaS a operações de computação sem servidor
+	  - Baseado em eventos, executa quando chamado.
+	- Serviços de aplicativos
+	  - Plataforma gerenciada para criar, implantar e dimensionar aplicativos Web e APIs.
+	  - PaaS com alto nivel de desempenho corportivo, segurança e comformidade
+  - Serviços de Rede
+    - Rede Virtual, comunicação entre os recursos do azure.
+	- Emparelhamento de rede conecta redes privadas
+	- Gateway de VPN, envia trafego criptografado.
+	- ExpressRoute, estende as redes locais para o Azure por meio de uma conexão privada.
+	- DNS, utiliza rede Anycast, baseia-se no gerenciador de recursos.
+	
