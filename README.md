@@ -124,7 +124,7 @@
 	- ExpressRoute, estende as redes locais para o Azure por meio de uma conexão privada.
 	- DNS, utiliza rede Anycast, baseia-se no gerenciador de recursos.
 - Armazenamento do Azure
- - Contas de Armazenamento (Storage Account)
+  - Contas de Armazenamento (Storage Account)
     - Deve ter um nome exclusivo
     - 4 Grupos de redundancia
       - LRS - redundancia local, mesmo zona de disponibilidade, mesma região primaria (ambientes não produtivos)
@@ -162,4 +162,76 @@
 	  - Sincronização de arquivos do Azure
 	    - Sincroniza arquivos do azure e local de forma bidirecinal
 		- Mantes arquivos mais acessados no local, e move para nuvem os menos acessados assim liberando espaço local
-	
+- Itendidade, Acesso e Segurança
+  - Microsoft Entra ID
+    - Autenticação
+	- Logon unico (SSO)
+	- Gerenciamento de aplicativos
+	- Negocios para Negocios (B2B)
+	- Gerenciamento de dispositivos
+  - Autenticação e Autorização
+    - Autenticação
+	  - Identifica pessoa ou serviço buscando um recurso
+	  - Solicita credencias de acesso
+	  - Base para criar principios de identidade e controle de acesso
+	- Autorização
+	  - Detemina o nivel de acesso a uma pessa ou serviço autenticado
+	  - Define quais dados elas acessar e que podem fazer com eles
+	- Autenticação multifator (MFA)
+	  - Segurança adicional para identidades de dois ou mais elementos para autenticação
+	- B2B e B2C
+	  - Usuarios externos acessam o ambiente com credencias externas
+  - Acesso Condicional
+    - Associação de usuario ao grupo
+	- Local do IP
+	- Dispositivo
+	- Aplicativo
+	- Detecção de risco
+  - Controle de Acesso Baseado em Função (RBAC)
+    - Gerenciamento de acesso de granularidade fina
+	- Acesso apenas ao minimo necessario que o usuario precisa
+	- Habilitar acesso ao portal do azure e controle de acesso aos recursos
+  - Confiança Zero
+    - Proteger recursos onde eles estiverem
+  - Proteção completa
+    - Camadas de proteção desde o hardware até os dados
+    - Fornecer varios niveis de proteção
+	- Ataques contra uma camada são isoladas das outras camadas
+  - Microsoft Defender para Cloud
+    - Serviço de monitoramento e proteção do azure e local
+    - Fornece remendações de segurança
+	- Detectar e bloquear malware
+	- Analisar e identificar ataques potenciais
+	- Controle de acesso just-in-time para portas
+
+## Gerenciamento e Governança na Azure
+- Gerencimento de Custos
+  - Fatores que afetam os custos
+    - Tipo de recurso
+	- Consumo
+	- Manutenção
+	- Area Geografica
+	- Trafego de rede
+	- Assinatura
+  - Azure Marketplace
+    - Recursos não microsoft que podem ser implementados na azure
+  - Calculadora de custos e preços
+    - Retorna uma estimativa de valor referente ao recurso de acordo com:
+		- Região
+		- Camada
+		- Opções de Cobrança
+		- Opções de suporte
+		- Programas de ofertas
+		- Preço do desenvolvimento/teste do azure
+  - Calculadore de custo total de propriedde (TCO)
+    - Estimar a economia de custos ao migrar para Azure
+	- Relatorio de comparação de custos de infraestrutura local com os da nuvem
+  - Relatorio de cobrança (criar alertas, orçamentos, limites, recomendações)
+  - Enriquecimento de dados
+  - Marcas (TAGS)
+    - Metadados dos recursos
+	- Organizar os recursos
+	- Par Nome-Valor
+	- Muito uteis para reunir informações de cobrança
+	- Não são obrigatorias
+    - 
