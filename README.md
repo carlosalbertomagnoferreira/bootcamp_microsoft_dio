@@ -18,7 +18,7 @@
   - preços por recursos e serviços individuais
   - pagamento conforme o uso
   
-## Beneficios da Nuvem Azure
+## Conceitos Iniciais de Cloud com Azure
 - Alta Disponibilidade - contrato de nivel de serviço SLA
   - Em caso de indisponibilidade acima do SLA, recebera credito.
 - Escalabilidade e Elasticidade
@@ -40,17 +40,16 @@
 	- API
 	- Linha de comando
 	- Ferramentas de terceiros como Terraform
-
-## Tipos de serviços de nuvem
-- IaaS, PaaS, SaaS
-  - IaaS - infraestrutura como serviço
-    - Serviço de uso da infraestrutura como rede, servidor e firewall
-  - PaaS - Plataforma como serviço
-    - Serviço de uso de software como plataforma, sem configurar servidor
-  - SaaS - Software como serviço
-    - Software em gerar baseado em liceciamento
-- Modelo responsabilidade Compatilhada
-  - Dependendo do modelo as reponsabilidades mudam, no caso do IaaS o usuario tem maior responbilidades enquanto no SaaS o provedor da nuvem que tem a maior responsabilidade.
+- Tipos de serviços de nuvem
+	- IaaS, PaaS, SaaS
+	  - IaaS - infraestrutura como serviço
+		- Serviço de uso da infraestrutura como rede, servidor e firewall
+	  - PaaS - Plataforma como serviço
+		- Serviço de uso de software como plataforma, sem configurar servidor
+	  - SaaS - Software como serviço
+		- Software em gerar baseado em liceciamento
+	- Modelo responsabilidade Compatilhada
+	  - Dependendo do modelo as reponsabilidades mudam, no caso do IaaS o usuario tem maior responbilidades enquanto no SaaS o provedor da nuvem que tem a maior responsabilidade.
 
 ## Arquitetura e Serviços da Azure
 - Regiões: Zonas de Disponibilidade
