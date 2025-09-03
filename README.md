@@ -41,3 +41,14 @@
 	- Linha de comando
 	- Ferramentas de terceiros como Terraform
 
+## Tipos de serviços de nuvem
+- IaaS, PaaS, SaaS
+  - IaaS - infraestrutura como serviço
+    - Serviço de uso da infraestrutura como rede, servidor e firewall
+  - PaaS - Plataforma como serviço
+    - Serviço de uso de software como plataforma, sem configurar servidor
+  - SaaS - Software como serviço
+    - Software em gerar baseado em liceciamento
+- Modelo responsabilidade Compatilhada
+  - Dependendo do modelo as reponsabilidades mudam, no caso do IaaS o usuario tem maior responbilidades enquanto no SaaS o provedor da nuvem que tem a maior responsabilidade.
+  
