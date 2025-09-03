@@ -1,6 +1,6 @@
 # Resumo Bootcamp DIO - Microsoft Azure AZ900
 
-Introdução ao ambiente cloud:
+## Introdução ao ambiente cloud:
 - Modelos de cloud
   - Privada
   - Publica
@@ -17,3 +17,27 @@ Introdução ao ambiente cloud:
   - previsão de custos
   - preços por recursos e serviços individuais
   - pagamento conforme o uso
+  
+## Beneficios da Nuvem Azure
+- Alta Disponibilidade - contrato de nivel de serviço SLA
+  - Em caso de indisponibilidade acima do SLA, recebera credito.
+- Escalabilidade e Elasticidade
+    - Adicionar mais recursos ou serviços a medida que necessita
+- Confiabilidade
+  - Design descentralizado, infraestrutura confiavel e resiliente
+  - Escala global
+- Previsibilidade
+  - Previsão para no desempenho e custos
+- Segurança
+  - Oferece muitas ferramentas de segurança, implementação por parte do cliente
+- Governança
+  - Auditoria
+  - Segurança conforme modelo operacional
+- Gerenciabilidade
+  - Gerenciamento facilitado
+  - Implantação de recursos com base em modelos pre-configurdos
+    - Via portal
+	- API
+	- Linha de comando
+	- Ferramentas de terceiros como Terraform
+
