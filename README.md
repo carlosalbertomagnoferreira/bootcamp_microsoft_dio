@@ -51,4 +51,36 @@
     - Software em gerar baseado em liceciamento
 - Modelo responsabilidade Compatilhada
   - Dependendo do modelo as reponsabilidades mudam, no caso do IaaS o usuario tem maior responbilidades enquanto no SaaS o provedor da nuvem que tem a maior responsabilidade.
-  
+
+## Arquitetura e Serviços da Azure
+- Regiões: Zonas de Disponibilidade
+  - Datacenters distribuidos em varias regiões do mundo.
+  - Proteção contra tempo de inatividde
+  - Replicação entre datacenters
+  - Datacenters separados fisicamente em cada zona de disponibilidade
+  - Conectados por meio de redes privadas com fibra optica
+- Pares de região
+  - 300 milhas de separação em entre pares de regiões
+  - Replicação automatica de alguns serviços
+- Regiões Soberanas
+  - Serviços governamentais
+  - Não acessives ao publico
+- Recursos do Azure
+  - EX: 
+    - Maquinas virtuais
+    - Contas de armazenamento
+    - Redes virtuais
+    - Serviços de aplicativos
+    - Bancos de dados
+    - Funções
+  - Organização por Grupos de recursos
+    - Recursos podem estar em mais de uma região
+	- Aplicativos podem utilizar varios grupos
+- Assinaturs do Azure
+  - Uma conta pode ter mais de uma assinatura, as assinaturas pertecem apenas a uma conta.
+  - Para cada assinatura tem uma fatura
+  - Limite de cobrança
+  - Controle de acesso
+- Grupos de Gereenciamento
+  - Podem incluir varias assinturas
+  - Assinaturas herdam as condições no grupo de gerenciamento
