@@ -124,4 +124,43 @@
 	- Gateway de VPN, envia trafego criptografado.
 	- ExpressRoute, estende as redes locais para o Azure por meio de uma conexão privada.
 	- DNS, utiliza rede Anycast, baseia-se no gerenciador de recursos.
+- Armazenamento do Azure
+ - Contas de Armazenamento (Storage Account)
+    - Deve ter um nome exclusivo
+    - 4 Grupos de redundancia
+      - LRS - redundancia local, mesmo zona de disponibilidade, mesma região primaria (ambientes não produtivos)
+	  - ZRS - redundancia de zona, tres zonas de disponilidade, mesma região primaria
+	  - GRS - redundancia geografica
+	  - GZRS - redundancia de zona geografica
+	- Armazena por cateria
+	  - Blob: Otimizado para armazanamento de quantidade massiva de dados não estruturados
+	  - Disco do Azure: discos para maquinas virtuais e outros sistemas utilizarem
+	  - Fila: serviço de armazenamento de mensagens
+	  - Arquivos: compartilhamento de rede altamente disponivel usando o protocolo de bloco de mensagens do servidor
+	  - Tabelas: opção de chave/atributo para armazenamento de dados estruturados não relacionais com um design sem esquema
+	- Ponto de extremidade publica dos serviços (endpoint):
+	  - Blob: 			  storage-account-name.blob.core.windows.net
+	  - Data Lake Storge: storage-account-name.dfs.core.windows.net
+	  - Arquivos: 		  storage-account-name.file.core.windows.net
+	  - Filas: 			  storage-account-name.queue.core.windows.net
+	  - Tabelas: 		  storage-account-name.table.core.windows.net
+	- Camadas de acesso:
+	  - Frequente: para dados acessados com frequencia
+	  - Esporadico: para dados acessados com pouca frequencia, armazenados por pelo menos 30 dias
+	  - Frio: pouca frequencia, 90 dias de armazenamento
+	  - Arquivo morto: raramente acessados, 180 dias de armazenamento e latencia flexiveis
+	- Migrações
+	  - Plataforma de migração unificada
+	  - Intervalo de ferramentas integradas
+	  - Azure Data Box: hardware que comporta até 80TB de dados que move os dados do cliente para azure de locais remotos, conectividade limitada ou sem conectividade
+	  - AzCopy
+	    - Utilitario de linha de comando
+		- Copiar blobs ou arquivos de ou para sua conta de armazenamento
+		- Sincronização em uma direção
+	  - Gerenciador de armazenameto do azure
+	    - Interface grafica do usuario (semelhante ao Windows Explorer)
+		- Compativel com o Windows, MacOS e Linux
+	  - Sincronização de arquivos do Azure
+	    - Sincroniza arquivos do azure e local de forma bidirecinal
+		- Mantes arquivos mais acessados no local, e move para nuvem os menos acessados assim liberando espaço local
 	
