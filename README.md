@@ -234,4 +234,65 @@
 	- Par Nome-Valor
 	- Muito uteis para reunir informações de cobrança
 	- Não são obrigatorias
-    - 
+- Governança e Conformidade
+  - Azure Policy
+    - Impor padrões organizacionais e avaliar conformidade em escala
+	- Governança e consistencia de recursos com conformidade regulatoria, segurança, custo e gerencimanto
+    - Avalia e identifica os recursos que não atendem as politicas
+	- Politicas e iniciativas integradas em categorias como armazenamento, rede, computação, central de segurança e monitoramento.
+  - Bloqueios de Recursos
+    - Protejer recursos contra exclusão ou modificação acidental
+	- Gerenciar bloqueios na assinatura, grupo de recursos ou nivel de recursos individuais dentro do portal do azure.
+	- Tipos de bloqueios:
+	  - Excluir: pode ler, pode atualizar, não pode excluir
+	  - ReadOnly: pode ler, não pode atualizar, não pode excluir
+  - Portal de Confiança do Serviço
+	- Conformidade de dados
+	- Informações sobre padrões seguidos, certificações e regulamentações
+  - Microsft Purview
+    - Governança, risco e conformidade
+	- Reune insights sobre os dados locais, multinuvem e software como serviço
+	- Descoberta de dados
+	- Classificaçõ de dados confidenciais
+	- Linhagem de dados de ponta a ponta
+  - Ferramentas de Gerenciamento e Implantação Azure
+    - Ferramentas para interagir com o Azure
+	  - Portal do azure
+	  - Azure PowerShell
+	  - Azure Cloud Shell
+	  - Interface de linha de comando (CLI)
+	- Azure ARC
+	  - Painel unico de gerenciamento
+	  - Gerenciamento multi-nuvem (AWS, GCP)
+	  - Controle de acesso baseado em função
+	  - Praticas nativas de nuvem
+	  - Segurança e conformidade
+	- Infraestrutura como codigo
+	  - Consistencia na implantação em todo ecosistema de nuvem
+	  - Gerencie a configuração em escala
+	  - Provisione rapidamente ambientes adicionais com base em uma configuração e um build padrão
+	- Azure Resource Manager (ARM)
+	  - Camada de gerenciamento para criar, atualizar e excluir recursos do azure
+	  - Modelos do ARM são arquivos JSON
+	  - Sintaxe declarativa
+	  - Resultados repetiveis
+	  - Orquestração
+	  - Arquivos modulares
+	  - Validação integrada
+	  - Codigo exportavel
+	- Azure Bicep
+	  - Linguagem especifica de dominio (DSL)
+	  - Linguagem nativa microsoft
+	  - Compativel apenas com azure
+	  - Sintaxe declarativa
+  - Ferramentas de Monitoramento
+    - Assistente do Azure
+	  - Ferramenta cloud native
+	  - Analisar recursos e faz recomendações para otimizar implantações do azure
+	  - Integra com o Microsoft defender para recomendações de segurança
+	- Integridade dos serviços do azure
+	  - Uma coleção de serviços que informão sobre o status global do azure
+	  - Status do Azure: visão do global da integridade de todos os serviços do azure
+	  - Resource health
+	- Azure monitor: disponibilidade e desempenho
+	
